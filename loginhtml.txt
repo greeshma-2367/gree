@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js"></script>
+     
+</head>
+<body bgcolor="pink">
+        <form  name="f1" action="login" onsubmit="return checkloginformdata()">
+
+    <table align="center" border="1" cellspacing="10px" cellpadding="10px">
+    <caption>
+        <h1>login Form</h1>
+    </caption>
+    <tr>
+        <td>
+            <label>User id:</label>
+        </td>
+        <td><input type="text" name="n1"> </td>
+    </tr><br>
+    <tr>
+            <td>
+                <label> password:</label>
+            </td>
+            <td><input type="password" name="n2"> </td>
+        </tr><br>
+                        <tr>
+                                <td>
+                                    <input type="submit" value=signin>
+                                </td>
+                                <td><input type="reset" value=clear></td>
+                            </tr>
+                           
+
+   
+                        </table>
+
+       </form>
+    
+</body>
+</html>
